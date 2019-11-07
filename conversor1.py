@@ -47,18 +47,3 @@ print(a, type(a))
 j=(2==6)
 a=str(j)
 print(a, type(a))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

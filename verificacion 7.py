@@ -1,12 +1,15 @@
+#CALCULA LA FUERZA
+
 #INPUT
-masa=6
-aceleracion=4
+masa=float(input("ingrese masa="))
+aceleracion=float(input("ingrese aceleracion="))
 
 #PROCESSING
-#Calculo
-
 fuerza=(masa*aceleracion)
-a=(fuerza==24)
+
+#Verificador
+verificar_la_fuerza=(fuerza<=24)
 
 #OUTPUT
-print("la fuerza es menor que 28", a)
+print("la fuerza es =", fuerza)
+print("la fuerza es mayor que 12?", verificar_la_fuerza)

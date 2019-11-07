@@ -1,11 +1,15 @@
+#CALCULAR LA ENERGIA CINETICA
+
 #INPUT
-masa=5
-velocidad=12
+masa=float(input("ingrese la masa="))
+velocidad=float(input("ingrese la velocidad="))
 
 #PROCESSING
-#Calculo
 la_energia_cinetica=(masa*velocidad)/2
-a=(la_energia_cinetica==30)
+
+#Verificacion
+verificacion_de_la_energia=(la_energia_cinetica==30)
 
 #OUTPUT
-print("¿la energia inetica da 30?", a)
+print("la energia cinetica es=", la_energia_cinetica)
+print("¿la energia cinetica es mayor que 26?", verificacion_de_la_energia)

@@ -1,11 +1,13 @@
 #INPUT
-trabajo=120
-tiempo=5
+trabajo=float(input("ingrese el trabajo="))
+tiempo=float(input("ingrese el tiempo="))
 
 #PROCESSING
-#Calculo
 potencia=(trabajo/tiempo)
-a=(potencia>10)
+
+#Verificador
+verificador_de_la_potencia=(potencia>10)
 
 #OUTPUT
-print("la potencia es mayor o igual que 20", a)
+print("la potencia es =", potencia)
+print("la potencia es mayor  que 26?", verificador_de_la_potencia)

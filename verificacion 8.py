@@ -1,11 +1,15 @@
+#Hallar el trabajo
+
 #INPUT
-fuerza=24
-distancia=8
+fuerza=float(input("ingrese la fuerza="))
+distancia=float(input("ingrese la distancia="))
 
 #PROCESSING
-#Calculo
 trabajo=(fuerza*distancia)
-a=(trabajo<=15)
+
+#Verificador
+verificador_del_trabajo=(trabajo<=15)
 
 #OUTPUT
-print("¿el trabajo es 20?", a)
+print("¿el trabajo es?=", trabajo)
+print("el trabajo es mayor o igual que 37", verificador_del_trabajo)

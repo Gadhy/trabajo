@@ -1,11 +1,15 @@
+#CALCULAR LA ENERGIA ELASTICA
+
 #INPUT
-K=400
-x=1.5
+K=float(input("ingrese K="))
+x=float(input("ingrese x="))
 
 #PROCESSING
-#Calculo
 energia_elastica=(K*(x**2))/2
-a=(energia_elastica==256)
+
+#Verificacion
+verificacion_de_la_energia_elastica=(energia_elastica==256)
 
 #OUTPUT
-print("la energia elastica es 156" , a)
+print("la energia elastica es=" , energia_elastica)
+print("la energia elastica es mayor que 236?", verificacion_de_la_energia_elastica)
